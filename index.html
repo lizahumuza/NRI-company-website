@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/1af36b526e.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
+  <title>Avant Garde Website</title>
+</head>
+
+<body>
+  <header class="main-header">
+    <div class="main-header__logo-container">
+      <!--<div class="main-header__logo-img-cont">
+        <img
+          src="./assets/logo.png"
+          alt="logo Image" class="main-header__logo-img" />
+      </div>-->
+      <h4 class="main-header__logo-text">
+        <img class="logo" src="./assets/logo3.png" alt="">
+      </h4>
+    </div>
+    <nav class="main-header__navigation">
+      <ul class="main-header__navigation-links">
+        <li class="main-header__navigation-link"><a href="./index.html"> Home </a></li>
+        <li class="main-header__navigation-link"><a href="./index.html#about"> About </a></li>
+        <li class="main-header__navigation-link">
+          <a href="./index.html#projects"> Projects </a>
+        </li>
+        <li class="main-header__navigation-link"><a href="./index.html#contact"> Contact </a></li>
+      </ul>
+    </nav>
+    <div class="main-header__sm-scr-nav-btn">
+      <div class="main-header__sm-scr-nav-btn-line"></div>
+      <div class="main-header__sm-scr-nav-btn-line"></div>
+    </div>
+    <div class="main-header__sm-menu">
+      <div class="main-header__sm-menu-close">
+
+      </div>
+      <ul class="main-header__sm-menu-links">
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--1" name="home-hero">Home</a>
+        </li>
+
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--2" name="about">About</a>
+        </li>
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--3" name="projects">Projects</a>
+        </li>
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--4" name="contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <!--Remove or Comment out this theme selector code when you are done with choosing the right color for your theme so this color selector don't appear when you host the site online-->
+  <!--<div class="themeClrSelector">
+    <input placeholder="Color Selector" type="color" value="#1DA1F2" class="themeClrSelector__input" />
+    <img alt="theme color tester" src="https://img.icons8.com/fluent/48/000000/rgb-circle-1.png"
+      class="themeClrSelector__img" />
+  </div>-->
+  <!---->
+
+  <section id="home-hero" class="home-hero">
+    <div class="home-hero__content">
+      <div class="home-hero__info">
+        <h1 class="heading-primary home-hero__heading-primary">
+          <span class="heading-primary__sm"> NRI Company Limited</span>
+          <span class="heading-primary__main">
+            Success through diligent research.
+          </span>
+          <br>
+          <div class="heading-primary__sm">
+            We provide expert advice and guidance to organizations and individuals on research, data, technology, finance, and investment-related matters. 
+          </div>
+          <p ></p>
+        </h1>
+        <button class="btn btn-theme home-hero__btn-theme"><a href="./index.html#about">Read more</a></button>
+        <button class="btn btn-inv home-hero__btn-theme"><a href="./index.html#contact">Contact Us</a></button>
+      </div>
+    </div>
+  </section>
+  <section id="about" class="about main-section">
+    <div class="main-container">
+      <h2 class="heading-secondary projects__heading-secondary">
+        <span class="heading-secondary__sm"> About Us</span>
+        <p class="para"></p>
+   </h2>
+      <div class="main-section__content">
+        <div class="about__info">
+          <div class="about__main-info">
+            <!--<h3 class="heading-quaternary about__heading-quaternary">
+              An Action Research & Advocacy Organization
+            </h3>-->
+            <p class="text-primary about__text-primary">
+              <span>
+                NRI Ltd is a company that provides expert advice and guidance to organizations and individuals on research, data, technology, finance, and investment-related matters.
+              </span>
+              <span>
+                Our specific objective include the following.
+              </span>
+              <span>
+                Conducting research and analysis: NRI conducts research and analysis on various business, social, economic, health care, investments, and financial topics, including Monitoring and Evaluation (M&E) studies, market trends, customer behavior, and competitive landscapes. This research is used to inform its consulting services and provide clients with insights about their business or projects.
+              </span>
+              <span>
+                Providing training and education: This includes offering workshops and seminars on research methods and techniques, topical issues and trends in technology and markets, as well as providing one-on-one coaching and mentorship to businesses and individuals.
+              </span>
+            </p>
+            <button class="btn btn-theme about__btn-theme"> <a href="./index.html#contact">Get in Touch</a></button>
+          </div>
+          <div class="about__skill-info">
+           <img src="./assets/3.jpg" alt="" class="img1" >
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--<section class="skills-showcase">
+   
+  </section>-->
+  <section id="projects" class="project main-section">
+    <div class="main-container">
+      <h2 class="heading-secondary projects__heading-secondary">
+        <span class="heading-secondary__sm"> Projects</span>
+        <p class="para"></p>
+      </h2>
+      <div class="buttons">
+        <button class="butt">Reasearch</button>
+        <button class="butt">Analyses</button>
+        <button class="butt">Investments</button>
+    </div>
+      <div class="main-content">
+      <div class="projects">
+                
+        <div class="a">
+            <h3>super cool project</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a interdum est. </p>
+        </div>
+        <div class="b">
+            <h3>Less cool project</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a interdum est. Curabitur porttitor tellus ut posuere lobortis. Aliquam nec justo ligula.</p>
+        </div>
+        <div class="c">
+            <h3>Impossible</h3>
+            <p>Donec vel tortor eu eros elementum sagittis in et dui. Morbi semper nunc eu lorem tempus pulvinar. Nulla vehicula pretium diam non porta</p>
+        </div>
+        <div class="d">
+            <h3>Easy peezy</h3>
+            <p>Proin convallis ex volutpat congue vehicula. Fusce nec faucibus diam, eget laoreet nisl. Curabitur nulla odio, molestie commodo vulputate sit amet, commodo et nunc</p>
+        </div>
+        <div class="e">
+            <h3>Ad blocker</h3>
+            <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam ac pretium enim. In luctus et ex quis commodo.</p>
+        </div>
+        <div class="f">
+            <h3>Money maker</h3>
+            <p>Nunc nisl tortor, egestas non ipsum eget, laoreet venenatis odio. Aenean molestie egestas purus, a scelerisque quam congue sed. Vivamus tristique sed ex nec </p>
+        </div>
+      </div>
+      </div> 
+
+    </div>
+      
+    </div>
+  </section>
+  <section id="contact" class="contact main-section">
+    <div class="main-container">
+      <h2 class="heading-secondary">
+        <span class="heading-secondary__sm"> Contact Us</span>
+        <p class="para"></p>
+      </h2>
+      <div class="main-section__content">
+        <div class="contact__form-cont">
+          
+            <div class="contact">
+              <div class="contact-item">
+                <i class="fa fa-house"></i>
+                <p>Kampala, Uganda</p>
+              </div>
+              <div class="contact-item">
+                <i class="fa fa-phone"></i>
+                <p>+256-774-776-304</p>
+              </div>
+              <div class="contact-item">
+                <i class="fa fa-envelope"></i>
+                <p>contact@example.com</p>
+              </div>
+            </div>
+            
+          
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="main-footer">
+    <div class="main-footer__upper">
+      <div class="main-container">
+        <ul class="main-footer__links">
+          <li class="main-footer__link">
+            <a href="./index.html">Home</a>
+          </li>
+          <li class="main-footer__link">
+            <a href="./index.html#about">About</a>
+          </li>
+          <li class="main-footer__link">
+            <a href="./index.html#projects">Projects</a>
+          </li>
+          <li class="main-footer__link">
+            <a href="./index.html#contact">Contact</a>
+          </li>
+        </ul>
+        <div class="main-footer__mid-line"></div>
+        <div class="main-footer__socials">
+          <a href="#" class="main-footer__social-link">
+            <img
+              src="https://d33wubrfki0l68.cloudfront.net/5557d5a11584d7201a38ee1a95200f57a4cc0f88/15085/assets/png/github-ico.png"
+              alt="" class="main-footer__social-link-icon" />
+          </a>
+          <a href="#" class="main-footer__social-link">
+            <img src="./assets/icons8-instagram-48.png" alt="" class="main-footer__social-link-icon" />
+          </a>
+          <a href="#" class="main-footer__social-link">
+            <img src="./assets/icons8-twitter-50.png" alt="" class="main-footer__social-link-icon" />
+          </a>
+          <a href="#" class="main-footer__social-link">
+            <img
+              src="https://d33wubrfki0l68.cloudfront.net/7f29579dde49e02480372aa49f7189c5536b0118/34b92/assets/png/linkedin-ico.png"
+              alt="" class="main-footer__social-link-icon" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="main-footer__bottom">
+      <div class="main-container">
+        <p class="main-footer__bottom-txt">
+          <!-- If you can give me some credits or shoutout here by linking to my website, then that will help me a lot :) -->
+          All Rights Reserved &copy; NTAWIHA RESEARCH AND INVESTMENTS LIMITED <script>document.write(new Date().getFullYear())</script>. Made by
+          <a target="_blank" href="https://www.linkedin.com/in/elizabeth-ahumuza-0b6392124/">Ahumuza Elizabeth</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+
+</html>
