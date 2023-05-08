@@ -379,7 +379,7 @@ a {
 /* Hero Section Stylings */
 
 .home-hero {
-  background-image: url("./assets/Stocksy_comp_watermarked_4437589.jpg");
+  background-image: url("./assets/hands.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -438,7 +438,9 @@ a {
 }
 
 .about__info {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 8rem;
 }
 
 @media (max-width: 37.5em) {
@@ -448,7 +450,7 @@ a {
   }
 
   .about__btn-theme {
-    width: 70%;
+    width: 60%;
   }
 }
 
@@ -494,9 +496,9 @@ a {
   font-weight: 500;
 }
 .img1{
-  max-width: 600px;
-  max-height: 60em;
-  margin-top: 15em;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 /* Skills Showcase */
 
@@ -643,6 +645,9 @@ a {
   .projects__list-item {
     grid-template-columns: 100%;
   }
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 .projects__list-item:last-child {
@@ -754,7 +759,6 @@ a {
 /* Contact */
 
 .contact {
-  background: #E8E4C9;
   display: flex;
   justify-content: space-between;
 }
@@ -783,8 +787,8 @@ a {
     grid-template-columns: 1fr;
   }
 
-  .contact__form {
-    padding: 3rem;
+  .contact{
+    flex-direction: column;
   }
 }
 
@@ -809,9 +813,10 @@ a {
 .contact-item i {
   font-size: 24px;
   margin-right: 10px;
+  position: relative;
 }
 
-.contact-item p {
+.text {
   font-size: 1.9rem;
   line-height: 2.5;
   margin: 0;
