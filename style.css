@@ -658,7 +658,12 @@ a {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-
+@media (max-width: 37.5em) {
+  .butt {
+    width: 120px;
+    height: 40px;
+    font-size: 1.5rem;
+  }}
 .projects__list-item:last-child {
   margin-bottom: 0;
 }
