@@ -1,3 +1,9 @@
-# NRI Research Company Website
+# NRI Research Company Website👨‍💻
 
-A company website for an investment and research company. It was built using Html, CSS and JavaScript
+A responsive company website for an investment and research company.
+
+## Technologies used 🛠️
+
+- **HTML** 💀
+- **CSS** 🌈
+- **JavaScript** 🧠
